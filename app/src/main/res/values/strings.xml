@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微信样例</string>
+    <string name="app_title">微信</string>
+    <string name="hello_world">作者很懒，这里的功能都没实现</string>
+    <string name="action_search">搜索</string>
+    <string name="action_add">+</string>
+    <string name="action_group_chat">发起群聊</string>
+    <string name="action_add_friend">添加朋友</string>
+    <string name="action_video_chat">视频聊天</string>
+    <string name="action_scan_qr">扫一扫</string>
+    <string name="action_snap_share">拍照分享</string>
+    <string name="action_my_photos">我的相册</string>
+    <string name="action_my_fav">我的收藏</string>
+    <string name="action_my_bank_cards">我的银行卡</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feedback">意见反馈</string>
+
+</resources>

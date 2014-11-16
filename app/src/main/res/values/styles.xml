@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+
+        <item name="android:itemBackground">@drawable/actionbar_bg_selector</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowIcon</item>
+        <item name="actionOverflowButtonStyle">@style/ActionBarOverflowIcon</item>
+
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+
+        <item name="android:itemTextAppearance">@style/ActionBarItem</item>
+    </style>
+
+
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@drawable/actionbar_bg_selector</item>
+        <item name="background">@drawable/actionbar_bg_selector</item>
+
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <style name="ActionBarOverflowIcon" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:src">@drawable/ic_menu_more</item>
+        <item name="android:background">@drawable/actionbar_bg_selector</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_text_color</item>
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+    </style>
+
+    <style name="ActionBarItem" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:textSize">@dimen/actionbar_overflow_font_size</item>
+    </style>
+
+
+
+</resources>

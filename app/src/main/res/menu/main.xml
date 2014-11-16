@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/action_add"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        app:actionProviderClass="com.pizzaliu.wechatsample.MenuAddActionProvider"
+        />
+
+    <!-- overflow -->
+    <item android:id="@+id/action_my_photos"
+        android:icon="@drawable/ic_menu_photo"
+        android:title="@string/action_my_photos"
+        android:orderInCategory="900"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_my_fav"
+        android:icon="@drawable/ic_menu_box"
+        android:title="@string/action_my_fav"
+        android:orderInCategory="910"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_my_bank_cards"
+        android:icon="@drawable/ic_menu_bank_card"
+        android:title="@string/action_my_bank_cards"
+        android:orderInCategory="920"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_setting"
+        android:icon="@drawable/ic_menu_envelope"
+        android:title="@string/action_feedback"
+        android:orderInCategory="930"
+        app:showAsAction="never"
+        />
+    <!-- end of overflow -->
+</menu>
