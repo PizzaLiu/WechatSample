@@ -8,3 +8,7 @@ Code follow by this course： [http://blog.csdn.net/guolin_blog/article/details/
 ## How to build it
 
 Just import into your Android Studio and run it as APP.
+
+## How it look like
+
+![https://raw.githubusercontent.com/PizzaLiu/WechatSample/master/snapshot.gif](https://raw.githubusercontent.com/PizzaLiu/WechatSample/master/snapshot.gif)
